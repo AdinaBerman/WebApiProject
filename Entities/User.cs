@@ -5,7 +5,7 @@ namespace Entities
     public class User
     {
         public string UserName { get; set; }
-        //[EmailAddress]
+        //[EmailAddress] add validation
         public string Password { get; set; }
         public string FirstName { get; set; }
         //[StringLength(15)]
